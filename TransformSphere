@@ -1,0 +1,17 @@
+using UnityEngine;
+
+public class orbit2 : MonoBehaviour {
+public Transform Sphere;
+public float speed;
+
+// Use this for initialization
+void Start () {
+
+}
+
+// Update is called once per frame
+void Update () 
+{
+transform.RotateAround(Sphere.position, Vector3.forward ,speed * Time.deltaTime);
+}
+}  
