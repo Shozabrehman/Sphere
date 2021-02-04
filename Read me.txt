@@ -1,0 +1,3 @@
+The Sphere
+
+The required Screen resolution to run this game is 1024 x 768 
