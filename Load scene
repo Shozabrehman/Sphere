@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine;
+
+public class scenechanger : MonoBehaviour
+
+{
+       public void sceneload(int SceneIndex )
+    {
+        SceneManager.LoadScene(SceneIndex);
+    }
+
+}
