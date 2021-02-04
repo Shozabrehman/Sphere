@@ -1,0 +1,13 @@
+using UnityEngine.SceneManagement; //necessary when using sceneManager
+using UnityEngine;
+
+public class scenechanger : MonoBehaviour // class name scenechanger
+
+{
+    
+    public void sceneload(int SceneIndex )
+    {
+        SceneManager.LoadScene(SceneIndex);  // load the scene with respect to sceneindex
+    }
+
+}
